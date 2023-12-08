@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Movie: Codable, Identifiable {
+struct Movie: Decodable, Identifiable {
     var id: Int
     let overview: String
     var posterPath: String?
