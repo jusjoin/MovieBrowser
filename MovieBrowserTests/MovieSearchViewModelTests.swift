@@ -17,6 +17,7 @@ class MovieSearchViewModelTests: XCTestCase {
     
     // Sample Data
     let movie = Movie(
+        id: 0,
         overview: "This movie about abou testing.",
         posterPath: nil,
         releaseDate: "2017-06-06",

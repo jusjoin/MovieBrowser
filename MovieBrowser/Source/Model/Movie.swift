@@ -9,7 +9,7 @@
 import Foundation
 
 struct Movie: Codable, Identifiable {
-    let id = UUID()
+    var id: Int
     let overview: String
     var posterPath: String?
     let releaseDate: String
@@ -17,6 +17,7 @@ struct Movie: Codable, Identifiable {
     let voteAverage: Double
     
     enum CodingKeys: String, CodingKey {
+        case id
         case overview
         case posterPath = "poster_path"
         case releaseDate = "release_date"

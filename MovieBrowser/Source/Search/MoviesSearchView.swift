@@ -87,11 +87,14 @@ struct MoviesSearchView: View {
 
 #Preview {
     let viewModel = MoviesSearchViewModel()
-    let movie = Movie(overview: "This is the movie overview of a great movie",
-                      posterPath: "",
-                      releaseDate: "December 25th, 1997",
-                      title: "Star Wars: The Force Awakens",
-                      voteAverage: 10.1525)
+    let movie = Movie(
+        id: 0,
+        overview: "This is the movie overview of a great movie",
+        posterPath: "",
+        releaseDate: "December 25th, 1997",
+        title: "Star Wars: The Force Awakens",
+        voteAverage: 10.1525
+    )
     viewModel.movies = [movie]
     return MoviesSearchView(viewModel: viewModel)
 }

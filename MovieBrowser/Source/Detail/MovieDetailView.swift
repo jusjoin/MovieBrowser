@@ -51,10 +51,13 @@ struct MovieDetailView: View {
 
 #Preview {
     let overview = "This is the movie overview of a great movie. This is the movie overview of a great movie. This is the movie overview of a great movie. This is the movie overview of a great movie. This is the movie overview of a great movie."
-    let movie = Movie(overview: overview,
-                      posterPath: "",
-                      releaseDate: "2015-06-25",
-                      title: "Star Wars: The Force Awakens",
-                      voteAverage: 10.0)
+    let movie = Movie(
+        id: 0,
+        overview: overview,
+        posterPath: "",
+        releaseDate: "2015-06-25",
+        title: "Star Wars: The Force Awakens",
+        voteAverage: 10.0
+    )
     return MovieDetailView(viewModel: MovieDetailViewModel(movie: movie))
 }
