@@ -17,8 +17,8 @@ struct MoviesSearchView: View {
             movieList
         }
         .alert("Error", isPresented: $viewModel.isError) {
-                    Button("Sorry we have encountered an error. Please try again.", role: .cancel) { }
-                }
+            Button("Sorry we have encountered an error. Please try again.", role: .cancel) { }
+        }
     }
 
     var searchBar: some View {
