@@ -53,7 +53,6 @@
 		7E4F3BEA2B23670500C46E5D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7E4F3BEC2B236C4200C46E5D /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
 		7E4F3BEE2B236C7D00C46E5D /* MovieRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowViewModel.swift; sourceTree = "<group>"; };
-		7E4F3BF02B236DB300C46E5D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7E4F3BF12B23726400C46E5D /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
 		7E4F3BF32B23782500C46E5D /* MovieSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchViewModelTests.swift; sourceTree = "<group>"; };
 		7E4F3BF52B23784B00C46E5D /* MoviewRowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewRowViewModelTests.swift; sourceTree = "<group>"; };
@@ -120,7 +119,6 @@
 		93305A712513D043004E869A /* MovieBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				7E4F3BF02B236DB300C46E5D /* README.md */,
 				93FE106D25E0557B00F805CE /* Source */,
 				7E4F3BFA2B238B0600C46E5D /* Extension */,
 				93FE106E25E0558600F805CE /* Resources */,
